@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 @font-face {
-  font-family: "Larsseit";
+  font-family: 'Larsseit';
   src: url(../fonts/Larsseit.woff2) format("woff2"), url("../fonts/Larsseit.woff") format("woff");
   font-display: swap;
   font-weight: 400;
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: "Larsseit";
+  font-family: 'Larsseit';
   src: url(../fonts/Larsseit-Medium.woff2) format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
   font-display: swap;
   font-weight: 500;
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: "Larsseit";
+  font-family: 'Larsseit';
   src: url(../fonts/Larsseit-Bold.woff2) format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
   font-display: swap;
   font-weight: 700;
@@ -51,15 +51,54 @@
 }
 
 body {
-  font-family: "Larsseit";
+  font-family: 'Larsseit';
 }
 
-.title {
-  font-family: Roboto;
+.main-title {
+  font-family: 'Roboto', serif;
   font-weight: 900;
+  color: tomato;
 }
 
 .text {
-  font-family: Lato;
+  font-family: 'Lato', serif;
   font-weight: 700;
 }
+
+h2 {
+  font-family: 'Larsseit', serif;
+  font-weight: 700;
+  color: green;
+}
+
+ol.list {
+  font-family: Lato;
+  font-weight: 400;
+  color: chocolate;
+}
+
+list.item {
+  font-family: Lato;
+  font-weight: 700;
+  color: crimson
+}
+
+.text p {
+  color: aqua;
+}
+
+/* .text * {
+  color: red;
+} */
+
+/* .text > p {
+  color: cornflowerblue;
+} */
+
+/* .text ~ p {
+  color: cornflowerblue;
+} */
+
+/* .text + p {
+  color: cornflowerblue;
+} */
